@@ -13,6 +13,7 @@ The current operating system time of the user's computer is obtained using the D
 <h2>Applied knowledge:</h2>
 
 + Insert video as a website background
++ How to Use APIs
 
 
 <h2>Linguagens Utilizadas</h2>
