@@ -21,10 +21,23 @@
                         Temperature (Kelvin): ${temperatureKelvin.toFixed(2)}K
                     `;
 
-                    // Get the current time
+                    // Get the current time of Your Operating System
                     const currentTime = new Date();
                     const timeDiv = document.getElementById("time");
-                    timeDiv.textContent = `Current Time: ${currentTime.toLocaleTimeString()}`;
+                    timeDiv.textContent = `Current Time of Your OS: ${currentTime.toLocaleTimeString()}`;
+                    
+                    // Create a button with the text "Reload"
+                    const button = document.createElement("button");
+                    button.textContent = "Reload";
+                    
+                    // Add the button to the document
+                    document.body.appendChild(button);
+                    
+                    // Add a click event to the button
+                    button.addEventListener("click", function() {
+                        // Reload the page
+                        location.reload();
+                    });
                 })
                 .catch(error => {
                     console.error("Error fetching weather data:", error);
