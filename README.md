@@ -18,7 +18,7 @@ The current operating system time of the user's computer is obtained using the D
 + How to Use APIs
 
 
-<h2>Linguagens Utilizadas</h2>
+<h2>Programming Languages Used</h2>
 <table>
 <tr>
 <td><strong>HTML</strong></td>
