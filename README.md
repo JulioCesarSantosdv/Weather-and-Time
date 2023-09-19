@@ -9,7 +9,7 @@ When the "Get Weather and Time" button is clicked, the JavaScript code fetches w
 The temperature in Celsius, Fahrenheit, and Kelvin is calculated and displayed on the page.
 The current operating system time of the user's computer is obtained using the Date object and displayed on top of the temperature information.
 
-**Warning:** *The page background video may not work if your browser has a blocker. Example: AdBlock*
+{c:red}**Warning:**{/c} *The page background video may not work if your browser has a blocker. Example: AdBlock*
 
 
 <h2>Applied knowledge:</h2>
