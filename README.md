@@ -1,7 +1,7 @@
 # 
 <h1>Weather and Time</h1>
 
-Status: Em Desenvolvimento ⚠️
+Status: Not Finished ⚠️
 
 This project consists of the user is prompted to enter their location (city, country or both).
 When the "Get Weather and Time" button is clicked, the JavaScript code fetches weather data using the provided location and an external weather API. 
