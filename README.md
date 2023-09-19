@@ -33,4 +33,4 @@ The current operating system time of the user's computer is obtained using the D
 </table>
 
 <h2>Project link</h2>
-<weather-and-time.netlify.app>
+<https://weather-and-time.netlify.app/>
