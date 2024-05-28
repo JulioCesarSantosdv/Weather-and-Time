@@ -1,45 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags for character encoding, compatibility, and responsive viewport -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
     <title>Weather & Time</title>
+    <!-- Favicon -->
     <link rel="shortcut icon" href="ico/autumm.ico" type="image/x-icon">
+    <!-- External stylesheet -->
     <link rel="stylesheet" href="css/style.css">
-    
 </head>
 <main>
     <header> 
     </header> 
     <body>
         
-        <section class ="location">
+        <!-- Location section -->
+        <section class="location">
+            <!-- Title -->
             <h1><strong>Weather & Time</strong></h1>
+            <!-- Location input -->
             <label for="location-input"><strong>Enter your location: </strong></label><br/>
             <input type="text" id="location-input" placeholder="Your city,country here"><br/>
+            <!-- Button to get weather and time -->
             <button id="get-weather"><strong>Get Weather and Time</strong></button><br/>
+            <!-- Weather information -->
             <div id="weather-info">
+                <!-- Time -->
                 <div id="time"></div>
+                <!-- Temperature -->
                 <div id="temperature"></div>
+                <!-- Time (repeated ID, consider changing) -->
                 <div id="time"></div>
             </div>
+            <!-- JavaScript file -->
             <script src="js/script.js"></script>
         </section>
+        <!-- Footer -->
         <footer>
+            <!-- Project information -->
             <p>
                 <strong>&copy;Project Developed by Julio Cesar Santos
                     <br/> video from https://www.freepik.com
                     <br/>API used: https://api.openweathermap.org/</strong>
             </p>  
         </footer>
+        <!-- Background video -->
         <video autoplay loop muted poster="img/weather.JPG" class="bg_video">
             <source src="video/weather.mp4" type="video/mp4">
         </video>
     </body>
 </main>
-
 </html>
+
 
 
 <!--In this code:
