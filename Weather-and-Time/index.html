@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+    <title>Weather & Time</title>
+    <link rel="shortcut icon" href="ico/autumm.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<main>
+    <header> 
+    </header> 
+    <body>
+        
+        <section class ="location">
+            <h1><strong>Weather & Time</strong></h1>
+            <label for="location-input"><strong>Enter your location: </strong></label><br/>
+            <input type="text" id="location-input" placeholder="Your city,country here"><br/>
+            <button id="get-weather"><strong>Get Weather and Time</strong></button><br/>
+            <div id="weather-info">
+                <div id="time"></div>
+                <div id="temperature"></div>
+                <div id="time"></div>
+            </div>
+            <script src="js/script.js"></script>
+        </section>
+        <footer>
+            <p>
+                <strong>&copy;Project Developed by Julio Cesar Santos
+                    <br/> video from https://www.freepik.com
+                    <br/>API used: https://api.openweathermap.org/</strong>
+            </p>  
+        </footer>
+        <video autoplay loop muted poster="img/weather.JPG" class="bg_video">
+            <source src="video/weather.mp4" type="video/mp4">
+        </video>
+    </body>
+</main>
+
+</html>
+
+
+<!--In this code:
+
+The user is prompted to enter their location (city, country).
+When the "Get Weather and Time" button is clicked, the JavaScript code fetches weather data using the provided
+location and an external weather API . 
+
+The temperature in Celsius, Fahrenheit, and Kelvin is calculated and displayed on the page.
+The current time is obtained using the Date object and displayed below the temperature information.
+
+
+images are from freepik:
+https://www.freepik.com/free-video/time-lapse-clouds-travel-across-dark-blue-sky_179252
+#fromView=search&term=weather&page=1&position= 
+
+
+API used: https://api.openweathermap.org/
+
+-->
+
+
+
+
+
+
+
